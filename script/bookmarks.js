@@ -32,6 +32,7 @@ const bookmarks = [
       { name: "Javascript.info", url: "https://Javascript.info/" },
       { name: "Localhost", url: "http://localhost:8000" },
       { name: "Aws Console", url: "https://aws.amazon.com/console/" },
+      { name: "App Eraser", url: "https://app.eraser.io/dashboard/all" },
     ],
   },
   {

@@ -71,12 +71,16 @@ const bookmarks = [
       { name: "The Pirate Bay", url: "https://thepiratebay.org/index.html" },
       { name: "1337X", url: "https://1337x.to/" },
       { name: "9Anime", url: "https://9animetv.to/" },
+      { name: "Netflix", url: "https://netflix.com/" },
     ],
   },
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
   bookmarks.forEach((category) => {
+    // Sort the links alphabetically by name
+    category.links.sort((a, b) => a.name.localeCompare(b.name));
+
     const container = document.getElementById(category.id);
     const linksDiv = container.querySelector(".links");
 
@@ -88,3 +92,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+

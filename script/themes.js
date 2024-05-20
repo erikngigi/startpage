@@ -1,23 +1,29 @@
-themeRandomizer = () => {
-const theme = ["gold", "pastel", "alcest", "griffith", "guts"]
-const random = theme[Math.floor(Math.random() * theme.length)]
-return random
-}
+const themes = ["griffith", "guts"];
+let currentThemeIndex = 0;
 
-setTheme = () => {
-    const selector = document.getElementsByClassName("image")[0]
-    savedTheme = localStorage.getItem('theme')
-    if(savedTheme) {
-        document.documentElement.className = savedTheme
+// Function to get the next theme in the sequence
+const nextTheme = () => {
+    currentThemeIndex = (currentThemeIndex + 1) % themes.length;
+    return themes[currentThemeIndex];
+};
+
+const setTheme = () => {
+    const selector = document.getElementsByClassName("image")[0];
+    let savedTheme = localStorage.getItem('theme');
+    
+    // Set the saved theme if it exists
+    if (savedTheme) {
+        document.documentElement.className = savedTheme;
+        currentThemeIndex = themes.indexOf(savedTheme);
     }
 
-
-
+    // Add click event listener to change theme on click
     selector.addEventListener("click", () => {
-        theme = themeRandomizer()
-        document.documentElement.className = theme
-        localStorage.setItem('theme', theme)
-    })
-}
+        let theme = nextTheme();
+        document.documentElement.className = theme;
+        localStorage.setItem('theme', theme);
+    });
+};
 
-setTheme()
+// Initialize the theme on page load
+setTheme();

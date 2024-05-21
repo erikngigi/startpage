@@ -22,6 +22,7 @@ const bookmarks = [
         name: "ericmosesngigi",
         url: "https://mail.google.com/mail/u/?authuser=ericmosesngigi@gmail.com",
       },
+      { name: "ChatGPT", url: "https://chat.openai.com/" },
     ],
   },
   {
@@ -33,6 +34,7 @@ const bookmarks = [
       { name: "Localhost", url: "http://localhost:8000" },
       { name: "Aws Console", url: "https://aws.amazon.com/console/" },
       { name: "App Eraser", url: "https://app.eraser.io/dashboard/all" },
+      { name: "Heroku", url: "https://dashboard.heroku.com/" },
     ],
   },
   {

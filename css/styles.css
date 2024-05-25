@@ -57,18 +57,19 @@
 }
 
 body {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   background-color: var(--background-color);
 }
 
 .content-container {
-  grid-column: 2;
-  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 
 .header-container {
   text-align: center;
@@ -98,7 +99,7 @@ span {
   height: 30vh;
   display: flex;
   flex-flow: row wrap;
-  gap: 20px;
+  gap: 10px;
 }
 
 .container {
@@ -108,7 +109,7 @@ span {
   gap: 2%;
   width: 15vh;
   height: 30vh;
-  text-align: center;
+  text-align: left;
 }
 
 .title {
@@ -116,6 +117,7 @@ span {
   font-family: "Space Mono", monospace;
   color: var(--title-color);
   font-size: 1.3rem;
+  text-align: left;
 }
 
 a {
@@ -137,7 +139,7 @@ img {
   justify-self: end;
   width: 60vh;
   height: 60vh;
-  margin-right: 15vh;
+  margin-right: 10vh;
   content: var(--image);
   box-shadow:
     0 10px 20px rgba(0, 0, 0, 0.25),
@@ -162,5 +164,4 @@ img {
 .links a {
   margin: 5px 0; /* Add some spacing between the links */
   text-decoration: none; /* Optional: remove underline from links */
-  font-size: ;
 }

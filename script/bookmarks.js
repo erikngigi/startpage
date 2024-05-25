@@ -14,14 +14,6 @@ const bookmarks = [
       },
       { name: "Chess", url: "https://www.chess.com/home" },
       { name: "Alx", url: "https://member.theroom.com/alx/" },
-      {
-        name: "ericwanyoike",
-        url: "https://mail.google.com/mail/u/?authuser=ericwanyoike@gmail.com",
-      },
-      {
-        name: "ericmosesngigi",
-        url: "https://mail.google.com/mail/u/?authuser=ericmosesngigi@gmail.com",
-      },
       { name: "ChatGPT", url: "https://chat.openai.com/" },
     ],
   },
@@ -77,6 +69,28 @@ const bookmarks = [
       { name: "Netflix", url: "https://netflix.com/" },
     ],
   },
+  {
+    title: "Email",
+    id: "email-container",
+    links: [
+      {
+        name: "EricWanyoike",
+        url: "https://mail.google.com/mail/u/?authuser=ericwanyoike@gmail.com",
+      },
+      {
+        name: "EricMosesNgigi",
+        url: "https://mail.google.com/mail/u/?authuser=ericmosesngigi@gmail.com",
+      },
+      {
+        name: "EricTheGiggs",
+        url: "https://mail.google.com/mail/u/?authuser=ericthegiggs@gmail.com",
+      },
+      {
+        name: "EriWanyoike772",
+        url: "https://mail.google.com/mail/u/?authuser=ericwanyoike772@gmail.com",
+      },
+    ],
+  },
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -95,4 +109,3 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-

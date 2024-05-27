@@ -7,7 +7,7 @@
   --status-color: #f0f0f0;
   --title-color: #a60e10;
   --link-color: #f0f0f0;
-  --hover-color: #00A36C;
+  --hover-color: #a60e10;
   --image: url("../img/guts.WebP");
 }
 
@@ -70,7 +70,6 @@ body {
   align-items: center;
 }
 
-
 .header-container {
   text-align: center;
 }
@@ -109,7 +108,7 @@ span {
   gap: 2%;
   width: 15vh;
   height: 30vh;
-  text-align: left;
+  text-align: center;
 }
 
 .title {
@@ -117,13 +116,13 @@ span {
   font-family: "Space Mono", monospace;
   color: var(--title-color);
   font-size: 1.3rem;
-  text-align: left;
+  text-align: center;
 }
 
 a {
   font-family: "Overpass", sans-serif;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: var(--link-color);
   margin-top: 2vh;
 }
@@ -137,8 +136,8 @@ img {
   border-radius: 8px;
   grid-row: 2;
   justify-self: end;
-  width: 60vh;
-  height: 60vh;
+  width: 50vh;
+  height: 50vh;
   margin-right: 10vh;
   content: var(--image);
   box-shadow:

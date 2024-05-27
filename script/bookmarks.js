@@ -13,7 +13,7 @@ const bookmarks = [
         url: "https://www.linkedin.com/in/eric-ngigi-073b72153/",
       },
       { name: "Chess", url: "https://www.chess.com/home" },
-      { name: "Alx", url: "https://member.theroom.com/alx/" },
+      { name: "ALX", url: "https://member.theroom.com/alx/" },
       { name: "ChatGPT", url: "https://chat.openai.com/" },
     ],
   },
@@ -21,12 +21,13 @@ const bookmarks = [
     title: "Dev",
     id: "dev-container",
     links: [
-      { name: "MDN Docs", url: "https://developer.mozilla.org/en-US/" },
-      { name: "Javascript.info", url: "https://Javascript.info/" },
       { name: "Localhost", url: "http://localhost:8000" },
       { name: "Aws Console", url: "https://aws.amazon.com/console/" },
       { name: "App Eraser", url: "https://app.eraser.io/dashboard/all" },
       { name: "Heroku", url: "https://dashboard.heroku.com/" },
+      { name: "Calc", url: "https://calc.ericngigi.com/" },
+      { name: "AirfloSciences", url: "https://airflosciences.com" },
+      { name: "Eric Ngigi", url: "https://ericngigi.com" },
     ],
   },
   {
@@ -51,6 +52,8 @@ const bookmarks = [
     links: [
       { name: "Explainshell", url: "https://explainshell.com/" },
       { name: "Arch Wiki", url: "https://wiki.archlinux.org/" },
+      { name: "Cpanel", url: "https://exams.cpanel.net/dashboard" },
+      { name: "Roadmaps", url: "https://roadmap.sh/" },
       { name: "Distrowatch", url: "https://distrowatch.com/" },
       { name: "Unix Porn", url: "https://www.reddit.com/r/unixporn/" },
     ],
@@ -86,7 +89,7 @@ const bookmarks = [
         url: "https://mail.google.com/mail/u/?authuser=ericthegiggs@gmail.com",
       },
       {
-        name: "EriWanyoike772",
+        name: "EricWanyoike772",
         url: "https://mail.google.com/mail/u/?authuser=ericwanyoike772@gmail.com",
       },
     ],

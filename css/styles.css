@@ -3,33 +3,33 @@
 :root,
 :root.guts {
   --background-color: #000000;
-  --header-color: #a60e10;
+  --header-color: #DC143C;
   --status-color: #f0f0f0;
-  --title-color: #a60e10;
+  --title-color: #DC143C;
   --link-color: #f0f0f0;
-  --hover-color: #a60e10;
-  --image: url("../img/guts.WebP");
+  --hover-color: #DC143C;
+  --image: url("../images/guts.png");
 }
 
-:root.pastel {
-  --background-color: #fdf4f5;
-  --header-color: #ba90c6;
-  --status-color: #ba90c6;
-  --title-color: #e8a0bf;
-  --link-color: #ba90c6;
-  --hover-color: #c0dbea;
-  --image: url("../img/pastel.WebP");
-}
+/* :root.pastel { */
+/*   --background-color: #fdf4f5; */
+/*   --header-color: #ba90c6; */
+/*   --status-color: #ba90c6; */
+/*   --title-color: #e8a0bf; */
+/*   --link-color: #ba90c6; */
+/*   --hover-color: #c0dbea; */
+/*   --image: url("../img/pastel.WebP"); */
+/* } */
 
-:root.alcest {
-  --background-color: #08151dff;
-  --header-color: #7a8996ff;
-  --status-color: #475464ff;
-  --title-color: #7a8996ff;
-  --link-color: #d4ded6ff;
-  --hover-color: #7a8996ff;
-  --image: url("../img/alcest.WebP");
-}
+/* :root.alcest { */
+/*   --background-color: #08151dff; */
+/*   --header-color: #7a8996ff; */
+/*   --status-color: #475464ff; */
+/*   --title-color: #7a8996ff; */
+/*   --link-color: #d4ded6ff; */
+/*   --hover-color: #7a8996ff; */
+/*   --image: url("../img/alcest.WebP"); */
+/* } */
 
 :root.griffith {
   --background-color: #75989aff;
@@ -38,18 +38,18 @@
   --title-color: #353636ff;
   --link-color: #f0f0f0ff;
   --hover-color: #353636ff;
-  --image: url("../img/griffith.WebP");
+  --image: url("../images/griffith.png");
 }
 
-:root.gold {
-  --background-color: #18122b;
-  --header-color: #d99433;
-  --status-color: #edf0e8;
-  --title-color: #d99433;
-  --link-color: #edf0e8;
-  --hover-color: #433f57;
-  --image: url("../img/gold.WebP");
-}
+/* :root.gold { */
+/*   --background-color: #18122b; */
+/*   --header-color: #d99433; */
+/*   --status-color: #edf0e8; */
+/*   --title-color: #d99433; */
+/*   --link-color: #edf0e8; */
+/*   --hover-color: #433f57; */
+/*   --image: url("../img/gold.WebP"); */
+/* } */
 
 * {
   padding: 0;

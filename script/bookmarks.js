@@ -46,6 +46,8 @@ const bookmarks = [
         url: "https://registry.terraform.io/providers/hashicorp/aws/latest/docs",
       },
       { name: "Docker Docs", url: "https://docs.docker.com/" },
+      { name: "SpaceLift", url: "https://spacelift.io/" },
+      { name: "AWSInsider", url: "https://awsinsider.net/Home.aspx" },
     ],
   },
   {

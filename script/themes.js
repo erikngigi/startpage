@@ -1,4 +1,4 @@
-const themes = ["griffith", "guts"];
+const themes = ["guts"];
 let currentThemeIndex = 0;
 
 // Function to get the next theme in the sequence

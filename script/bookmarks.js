@@ -15,6 +15,7 @@ const bookmarks = [
       { name: "Chess", url: "https://www.chess.com/home" },
       { name: "ALX", url: "https://member.theroom.com/alx/" },
       { name: "ChatGPT", url: "https://chat.openai.com/" },
+      { name: "Pepperstone", url: "https://pepperstone.com/en-af/" },
     ],
   },
   {
@@ -37,13 +38,14 @@ const bookmarks = [
       { name: "Libgen", url: "https://libgen.is/" },
       { name: "Aws Docs", url: "https://docs.aws.amazon.com/" },
       {
-        name: "Terraform",
-        url: "https://developer.hashicorp.com/terraform",
+        name: "Terraform Docs",
+        url: "https://developer.hashicorp.com/terraform/docs",
       },
       {
-        name: "Terraform Aws",
+        name: "AWS Provider",
         url: "https://registry.terraform.io/providers/hashicorp/aws/latest/docs",
       },
+      { name: "Docker Docs", url: "https://docs.docker.com/" },
     ],
   },
   {
@@ -56,16 +58,17 @@ const bookmarks = [
       { name: "Roadmaps", url: "https://roadmap.sh/" },
       { name: "Distrowatch", url: "https://distrowatch.com/" },
       { name: "Unix Porn", url: "https://www.reddit.com/r/unixporn/" },
+      { name: "Linux Journey", url: "https://linuxjourney.com/" },
     ],
   },
   {
-    title: "Watch",
+    title: "Download/Watch",
     id: "watch-container",
     links: [
       { name: "YouTube", url: "https://youtube.com" },
       { name: "Pahe", url: "https://pahe.ink" },
       { name: "Nyaa", url: "https://nyaa.si/" },
-      { name: "Anitaku", url: "https://anitaku.io/" },
+      // { name: "Anitaku", url: "https://anitaku.io/" },
       { name: "The Pirate Bay", url: "https://thepiratebay.org/index.html" },
       { name: "1337X", url: "https://1337x.to/" },
       { name: "9Anime", url: "https://9animetv.to/" },
@@ -73,23 +76,23 @@ const bookmarks = [
     ],
   },
   {
-    title: "Email",
+    title: "Email Accounts",
     id: "email-container",
     links: [
       {
-        name: "EricWanyoike",
+        name: "ericwanyoike@gmail.com",
         url: "https://mail.google.com/mail/u/?authuser=ericwanyoike@gmail.com",
       },
       {
-        name: "EricMosesNgigi",
+        name: "ericmosesngigi@gmail.com",
         url: "https://mail.google.com/mail/u/?authuser=ericmosesngigi@gmail.com",
       },
       {
-        name: "EricTheGiggs",
+        name: "ericthegiggs@gmail.com",
         url: "https://mail.google.com/mail/u/?authuser=ericthegiggs@gmail.com",
       },
       {
-        name: "EricWanyoike772",
+        name: "ericwanyoike772@gmail.com",
         url: "https://mail.google.com/mail/u/?authuser=ericwanyoike772@gmail.com",
       },
     ],

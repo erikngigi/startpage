@@ -28,7 +28,8 @@ const bookmarks = [
       { name: "Heroku", url: "https://dashboard.heroku.com/" },
       { name: "Calc", url: "https://calc.ericngigi.com/" },
       { name: "AirfloSciences", url: "https://airflosciences.com" },
-      { name: "Eric Ngigi", url: "https://ericngigi.com" },
+      { name: "Eric Ngigi", url: "https://ericngigi.com/" },
+      { name: "Docker Hub", url: "https://hub.docker.com/" },
     ],
   },
   {

@@ -25,7 +25,7 @@ const bookmarks = [
       { name: "Localhost", url: "http://localhost:8000" },
       { name: "Aws Console", url: "https://aws.amazon.com/console/" },
       { name: "App Eraser", url: "https://app.eraser.io/dashboard/all" },
-      { name: "Heroku", url: "https://dashboard.heroku.com/" },
+      { name: "Draw.io", url: "https://app.diagrams.net/" },
       { name: "Calc", url: "https://calc.ericngigi.com/" },
       { name: "AirfloSciences", url: "https://airflosciences.com" },
       { name: "Eric Ngigi", url: "https://ericngigi.com/" },

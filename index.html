@@ -1,54 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8 UTF-16" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./css/styles.css" />
-        <link href="brave.png" rel="shortcut icon" type="image/x-icon" />
-        <script src="https://kit.fontawesome.com/50ca4bca32.js"
-                crossorigin="anonymous"></script>
-        <script src="./script/themes.js" async></script>
-        <script src="./script/bookmarks.js" defer></script>
-        <title>StartPage</title>
-    </head>
-    <body>
-        <img class="image" alt="main image" src="/images/guts.png" />
-        <div class="content-container">
-            <div class="header-container">
-                <h1>Welcome, Eric</h1>
-            </div>
-            <div class="card-container">
-                <!--- Social container -->
-                <div id="social-container" class="container">
-                    <h2 class="title">Social</h2>
-                    <div class="links"></div>
-                </div>
-                <!--- Developer Container -->
-                <div id="dev-container" class="container">
-                    <h2 class="title">Development</h2>
-                    <div class="links"></div>
-                </div>
-                <!--- Reading Container -->
-                <div id="reading-container" class="container">
-                    <h2 class="title">Read</h2>
-                    <div class="links"></div>
-                </div>
-                <!--- Linux Container -->
-                <div id="linux-container" class="container">
-                    <h2 class="title">Linux</h2>
-                    <div class="links"></div>
-                </div>
-                <!--- Watch Container -->
-                <div id="watch-container" class="container">
-                    <h2 class="title">Watch</h2>
-                    <div class="links"></div>
-                </div>
-                <div id="email-container" class="container">
-                    <h2 class="title">Email</h2>
-                    <div class="links"></div>
-                </div>
-            </div>
+  <head>
+    <meta charset="UTF-8 UTF-16" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link href="brave.png" rel="shortcut icon" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/50ca4bca32.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script/themes.js" async></script>
+    <script src="./script/bookmarks.js" defer></script>
+    <title>StartPage</title>
+  </head>
+  <body>
+    <img class="image" alt="main image" src="/images/guts.png" />
+    <div class="content-container">
+      <!-- <div class="header-container"> -->
+      <!--   <h1>Welcome, Eric</h1> -->
+      <!-- </div> -->
+      <!-- Search Box -->
+      <div class="search-container">
+        <form action="https://www.google.com/search" method="get">
+          <input
+            type="text"
+            name="q"
+            class="search-box"
+            placeholder="Search Google..."
+            required
+          />
+          <button type="submit" class="search-button">Search</button>
+        </form>
+      </div>
+      <div class="card-container">
+        <!--- Social container -->
+        <div id="social-container" class="container">
+          <h2 class="title">Social</h2>
+          <div class="links"></div>
         </div>
-    </body>
+        <!--- Developer Container -->
+        <div id="dev-container" class="container">
+          <h2 class="title">Development</h2>
+          <div class="links"></div>
+        </div>
+        <!--- Reading Container -->
+        <div id="reading-container" class="container">
+          <h2 class="title">Read</h2>
+          <div class="links"></div>
+        </div>
+        <!--- Linux Container -->
+        <div id="linux-container" class="container">
+          <h2 class="title">Linux</h2>
+          <div class="links"></div>
+        </div>
+        <!--- Watch Container -->
+        <div id="watch-container" class="container">
+          <h2 class="title">Watch</h2>
+          <div class="links"></div>
+        </div>
+        <div id="email-container" class="container">
+          <h2 class="title">Email</h2>
+          <div class="links"></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

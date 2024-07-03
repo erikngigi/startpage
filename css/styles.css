@@ -3,11 +3,11 @@
 :root,
 :root.guts {
   --background-color: #000000;
-  --header-color: #E60000;
+  --header-color: #e60000;
   --status-color: #f0f0f0;
-  --title-color: #E60000;
+  --title-color: #e60000;
   --link-color: #f0f0f0;
-  --hover-color: #E60000;
+  --hover-color: #e60000;
   --image: url("../images/guts_01.png");
 }
 
@@ -164,4 +164,34 @@ img {
 .links a {
   margin: 5px 0; /* Add some spacing between the links */
   text-decoration: none; /* Optional: remove underline from links */
+}
+
+/* Search box styles */
+.search-container {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.search-box {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.search-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #800000;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.search-button:hover {
+  background-color: #e60000;
 }

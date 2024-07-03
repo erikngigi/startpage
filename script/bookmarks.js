@@ -16,6 +16,7 @@ const bookmarks = [
       { name: "ALX", url: "https://member.theroom.com/alx/" },
       { name: "ChatGPT", url: "https://chat.openai.com/" },
       { name: "Pepperstone", url: "https://pepperstone.com/en-af/" },
+      { name: "Kitsu", url: "https://kitsu.io/explore/anime" },
     ],
   },
   {
@@ -30,6 +31,7 @@ const bookmarks = [
       { name: "AirfloSciences", url: "https://airflosciences.com" },
       { name: "Eric Ngigi", url: "https://ericngigi.com/" },
       { name: "Docker Hub", url: "https://hub.docker.com/" },
+      { name: "HCP Terraform", url: "https://app.terraform.io/" },
     ],
   },
   {

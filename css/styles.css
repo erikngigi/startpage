@@ -175,21 +175,19 @@ img {
 .search-box {
   width: 50%;
   padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  border: 1px solid #e60000;
   font-size: 16px;
   color: #000000;
 }
 
 .search-button {
   padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
+  border: 1px solid #800000;
   background-color: #800000;
   color: white;
   font-size: 16px;
   cursor: pointer;
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .search-button:hover {

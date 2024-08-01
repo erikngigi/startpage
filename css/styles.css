@@ -1,55 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
-:root,
-:root.guts {
-  --background-color: #000000;
-  --header-color: #e60000;
-  --status-color: #f0f0f0;
-  --title-color: #e60000;
-  --link-color: #f0f0f0;
-  --hover-color: #e60000;
-  --image: url("../images/guts_01.png");
+:root {
+  --bg-black: #000000;
+  --bg-hover: #ffffff;
 }
 
-/* :root.pastel { */
-/*   --background-color: #fdf4f5; */
-/*   --header-color: #ba90c6; */
-/*   --status-color: #ba90c6; */
-/*   --title-color: #e8a0bf; */
-/*   --link-color: #ba90c6; */
-/*   --hover-color: #c0dbea; */
-/*   --image: url("../images/guts_02.jpg"); */
-/* } */
+:root.naruto {
+  --background-color: var(--bg-black);
+  --header-color: #FF7E01;
+  --status-color: #FF7E01;
+  --title-color: #FDEC92;
+  --link-color: #FF7E01;
+  --hover-color: var(--bg-hover);
+  --image: url("../images/potraits/naruto.webp");
+}
 
-/* :root.alcest { */
-/*   --background-color: #08151dff; */
-/*   --header-color: #7a8996ff; */
-/*   --status-color: #475464ff; */
-/*   --title-color: #7a8996ff; */
-/*   --link-color: #d4ded6ff; */
-/*   --hover-color: #7a8996ff; */
-/*   --image: url("../images/itachi_01.jpg"); */
-/* } */
+:root.sasuke {
+  --background-color: var(--bg-black);
+  --header-color: #15C2DE;
+  --status-color: #15C2DE;
+  --title-color: #DFA8FD;
+  --link-color: #15C2DE;
+  --hover-color: var(--bg-hover);
+  --image: url("../images/potraits/sasuke.webp");
+}
 
-/* :root.griffith { */
-/*   --background-color: #75989aff; */
-/*   --header-color: #353636ff; */
-/*   --status-color: #f0f0f0ff; */
-/*   --title-color: #353636ff; */
-/*   --link-color: #f0f0f0ff; */
-/*   --hover-color: #353636ff; */
-/*   --image: url("../images/griffith_01.png"); */
-/* } */
+:root.itachi {
+  --background-color: var(--bg-black);
+  --header-color: #FE7E55;
+  --status-color: #FE7E55;
+  --title-color: #8D1D23;
+  --link-color: #FE7E55;
+  --hover-color: var(--bg-hover);
+  --image: url("../images/potraits/itachi.webp");
+}
 
-/* :root.gold { */
-/*   --background-color: #18122b; */
-/*   --header-color: #d99433; */
-/*   --status-color: #edf0e8; */
-/*   --title-color: #d99433; */
-/*   --link-color: #edf0e8; */
-/*   --hover-color: #433f57; */
-/*   --image: url("../img/gold.WebP"); */
-/* } */
+:root.obito {
+  --background-color: var(--bg-black);
+  --header-color: #F68417;
+  --status-color: #F68417;
+  --title-color: #d99433;
+  --link-color: #F68417;
+  --hover-color: var(--bg-hover);
+  --image: url("../images/potraits/obito.webp");
+}
+
+:root.madara {
+  --background-color: var(--bg-black);
+  --header-color: #2A92DC;
+  --status-color: #2A92DC;
+  --title-color: #FEA94D;
+  --link-color: #2A92DC;
+  --hover-color: var(--bg-hover);
+  --image: url("../images/potraits/madara.webp");
+}
 
 * {
   padding: 0;
@@ -134,11 +137,10 @@ a:hover {
 
 img {
   grid-column: 1;
-  border-radius: 8px;
   grid-row: 2;
   justify-self: end;
   width: 50vh;
-  height: 50vh;
+  height: auto;
   margin-right: 10vh;
   content: var(--image);
   box-shadow:

@@ -1,29 +1,22 @@
-const themes = ["guts"];
-let currentThemeIndex = 0;
+let currentIndex = 0;
 
-// Function to get the next theme in the sequence
-const nextTheme = () => {
-    currentThemeIndex = (currentThemeIndex + 1) % themes.length;
-    return themes[currentThemeIndex];
+const themes = ["naruto", "sasuke", "itachi", "obito", "madara"];
+
+setTheme = () => {
+  const selector = document.getElementsByClassName("image")[0];
+  let savedIndex = localStorage.getItem("themeIndex");
+
+  if (savedIndex !== null) {
+    currentIndex = parseInt(savedIndex, 10);
+  }
+
+  document.documentElement.className = themes[currentIndex];
+
+  selector.addEventListener("click", () => {
+    currentIndex = (currentIndex + 1) % themes.length;
+    document.documentElement.className = themes[currentIndex];
+    localStorage.setItem("themeIndex", currentIndex);
+  });
 };
 
-const setTheme = () => {
-    const selector = document.getElementsByClassName("image")[0];
-    let savedTheme = localStorage.getItem('theme');
-    
-    // Set the saved theme if it exists
-    if (savedTheme) {
-        document.documentElement.className = savedTheme;
-        currentThemeIndex = themes.indexOf(savedTheme);
-    }
-
-    // Add click event listener to change theme on click
-    selector.addEventListener("click", () => {
-        let theme = nextTheme();
-        document.documentElement.className = theme;
-        localStorage.setItem('theme', theme);
-    });
-};
-
-// Initialize the theme on page load
 setTheme();

@@ -2,7 +2,7 @@ let currentIndex = 0;
 
 const themes = ["naruto", "sasuke", "itachi", "obito", "madara"];
 
-setTheme = () => {
+function setTheme() {
   const selector = document.getElementsByClassName("image")[0];
   let savedIndex = localStorage.getItem("themeIndex");
 
@@ -13,10 +13,19 @@ setTheme = () => {
   document.documentElement.className = themes[currentIndex];
 
   selector.addEventListener("click", () => {
-    currentIndex = (currentIndex + 1) % themes.length;
-    document.documentElement.className = themes[currentIndex];
-    localStorage.setItem("themeIndex", currentIndex);
+    changeTheme();
   });
-};
+
+  // Change theme every 30 minutes (1800000 milliseconds)
+  setInterval(() => {
+    changeTheme();
+  }, 1800000);
+}
+
+function changeTheme() {
+  currentIndex = (currentIndex + 1) % themes.length;
+  document.documentElement.className = themes[currentIndex];
+  localStorage.setItem("themeIndex", currentIndex);
+}
 
 setTheme();

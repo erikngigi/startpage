@@ -8,15 +8,14 @@ const bookmarks = [
       { name: "Twitter", url: "https://www.twitter.com" },
       { name: "Reddit", url: "https://reddit.com" },
       { name: "Github", url: "https://github.com/ErikNgigi" },
-      {
-        name: "Linkedin",
-        url: "https://www.linkedin.com/in/eric-ngigi-073b72153/",
-      },
+      { name: "Linkedin", url: "https://www.linkedin.com/in/eric-ngigi-073b72153/" },
       { name: "Chess", url: "https://www.chess.com/home" },
       { name: "ALX", url: "https://member.theroom.com/alx/" },
       { name: "ChatGPT", url: "https://chat.openai.com/" },
       { name: "Pepperstone", url: "https://pepperstone.com/en-af/" },
       { name: "Kitsu", url: "https://kitsu.io/explore/anime" },
+      { name: "Fiverr", url: "https://fiverr.com" },
+      { name: "Upwork", url: "https://upwork.com" },
     ],
   },
   {

@@ -108,8 +108,8 @@ span {
   display: flex;
   flex-direction: column;
   align-items: left;
-  gap: 2%;
-  width: 15vh;
+  gap: 5%;
+  width: 19vh;
   height: 30vh;
   text-align: left;
   padding-right: 10px;
@@ -126,7 +126,7 @@ span {
 a {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--link-color);
   margin-top: 2vh;
 }
@@ -205,36 +205,3 @@ form .search-button:hover {
 form .search-button i {
   font-size: 16px;
 }
-
-/* form .search-box::placeholder { */
-/*   color: #aaa; */
-/*   padding-left: 2px; /* Adjust padding to make space for the icon */ */
-/* } */
-
-/* Search box styles */
-/* .search-container { */
-/*   margin-bottom: 10px; */
-/*   text-align: left; */
-/* } */
-
-/* .search-box { */
-/*   width: 50%; */
-/*   padding: 10px; */
-/*   border: 1px solid #e60000; */
-/*   font-size: 16px; */
-/*   color: #000000; */
-/* } */
-
-/* .search-button { */
-/*   padding: 10px 20px; */
-/*   border: 1px solid #800000; */
-/*   background-color: #800000; */
-/*   color: white; */
-/*   font-size: 16px; */
-/*   cursor: pointer; */
-/*   margin-right: 10px; */
-/* } */
-
-/* .search-button:hover { */
-/*   background-color: #e60000; */
-/* } */

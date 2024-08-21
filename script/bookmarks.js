@@ -22,7 +22,10 @@ const bookmarks = [
     title: "Dev",
     id: "dev-container",
     links: [
-      { name: "Localhost", url: "http://localhost:8000" },
+      { name: "Localhost (Hugo)", url: "http://localhost:3000" },
+      { name: "Localhost (Tina)", url: "http://localhost:3001" },
+      { name: "Localhost (Tina Admin)", url: "http://localhost:3001/admin" },
+      { name: "Localhost (Python)", url: "http://localhost:8000" },
       { name: "Aws Console", url: "https://aws.amazon.com/console/" },
       { name: "App Eraser", url: "https://app.eraser.io/dashboard/all" },
       { name: "Draw.io", url: "https://app.diagrams.net/" },
@@ -40,14 +43,8 @@ const bookmarks = [
     links: [
       { name: "Libgen", url: "https://libgen.is/" },
       { name: "Aws Docs", url: "https://docs.aws.amazon.com/" },
-      {
-        name: "Terraform Docs",
-        url: "https://developer.hashicorp.com/terraform/docs",
-      },
-      {
-        name: "AWS Provider",
-        url: "https://registry.terraform.io/providers/hashicorp/aws/latest/docs",
-      },
+      { name: "Terraform Docs", url: "https://developer.hashicorp.com/terraform/docs" },
+      { name: "AWS Provider", url: "https://registry.terraform.io/providers/hashicorp/aws/latest/docs" },
       { name: "Docker Docs", url: "https://docs.docker.com/" },
       { name: "SpaceLift", url: "https://spacelift.io/" },
       { name: "AWSInsider", url: "https://awsinsider.net/Home.aspx" },
@@ -73,7 +70,7 @@ const bookmarks = [
       { name: "YouTube", url: "https://youtube.com" },
       { name: "Pahe", url: "https://pahe.ink" },
       { name: "Nyaa", url: "https://nyaa.si/" },
-      // { name: "Anitaku", url: "https://anitaku.io/" },
+      { name: "Anitaku", url: "https://anitaku.io/" },
       { name: "The Pirate Bay", url: "https://thepiratebay.org/index.html" },
       { name: "1337X", url: "https://1337x.to/" },
       { name: "9Anime", url: "https://9animetv.to/" },
@@ -84,22 +81,10 @@ const bookmarks = [
     title: "Email Accounts",
     id: "email-container",
     links: [
-      {
-        name: "ericwanyoike@gmail.com",
-        url: "https://mail.google.com/mail/u/?authuser=ericwanyoike@gmail.com",
-      },
-      {
-        name: "ericmosesngigi@gmail.com",
-        url: "https://mail.google.com/mail/u/?authuser=ericmosesngigi@gmail.com",
-      },
-      {
-        name: "ericthegiggs@gmail.com",
-        url: "https://mail.google.com/mail/u/?authuser=ericthegiggs@gmail.com",
-      },
-      {
-        name: "ericwanyoike772@gmail.com",
-        url: "https://mail.google.com/mail/u/?authuser=ericwanyoike772@gmail.com",
-      },
+      { name: "ericwanyoike@gmail.com", url: "https://mail.google.com/mail/u/?authuser=ericwanyoike@gmail.com" },
+      { name: "ericmosesngigi@gmail.com", url: "https://mail.google.com/mail/u/?authuser=ericmosesngigi@gmail.com" },
+      { name: "ericthegiggs@gmail.com", url: "https://mail.google.com/mail/u/?authuser=ericthegiggs@gmail.com" },
+      { name: "ericwanyoike772@gmail.com", url: "https://mail.google.com/mail/u/?authuser=ericwanyoike772@gmail.com" },
     ],
   },
 ];

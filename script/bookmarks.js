@@ -35,6 +35,7 @@ const bookmarks = [
       { name: "Docker Hub", url: "https://hub.docker.com/" },
       { name: "HCP Terraform", url: "https://app.terraform.io/" },
       { name: "Namecheap", url: "https://namecheap.com/" },
+      { name: "Hoppscotch", url: "https://hoppscotch.io/" },
     ],
   },
   {

@@ -1,6 +1,6 @@
 let currentIndex = 0;
 
-const themes = ["naruto", "sasuke"];
+const themes = ["naruto"];
 
 function setTheme() {
   const selector = document.getElementsByClassName("image")[0];
